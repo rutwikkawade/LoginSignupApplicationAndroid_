@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#FF5722"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username1"
+        android:hint="Username"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password1"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/signin1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:text="SIGN IN"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/socialmedia"
+        android:fontFamily="serif-monospace"
+        android:text="Social Media"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:id="@+id/iv_facebook"
+            android:src="@drawable/facebook"
+
+
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:id="@+id/iv_instagram"
+            android:src="@drawable/instagram"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:id="@+id/iv_twitter"
+            android:src="@drawable/twitter"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:id="@+id/iv_youtube"
+            android:src="@drawable/youtube"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
